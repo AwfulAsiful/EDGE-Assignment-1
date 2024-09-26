@@ -7,25 +7,29 @@
 
 * {
     font-family: "Lato", sans-serif;
-    margin: 0px;
+    margin: 0;
 }
-img{
-    max-width: 100%;
+
+/* img{
+    width: 100%;
     height: auto;
-}
+} */
 
 .banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
     padding-left: 50px;
-    
+    padding-right: 50px;
+
 
 }
 
 .banner-text {
-    margin-right: 96;
+    /* margin-right: 96; */
+    margin-top: 100px;
+    padding-bottom: 100px;
 }
 
 .banner-text h4 {
@@ -41,6 +45,12 @@ img{
     font-weight: 400;
     margin-bottom: 30px;
     line-height: 30px;
+}
+
+.banner-image img {
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
 }
 
 .btn-primary {
@@ -76,33 +86,30 @@ img{
 }
 
 .featured-flowers-container {
+    
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 25px;
-    margin: 0px 10px 32px 10px;
+    margin: 0px 240px 30px 240px;
     /* background-color: aqua; */
-    overflow: hidden;
-   /*  width: 100%;
+    /*  width: 100%;
     height: auto; */
 }
 
-.featured-flowers-container .featured-flowers-1  {
-    width: 50%;
+
+.featured-flowers-container .featured-flowers-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 76px 0px 76px;
 }
 
 .featured-flowers-container .featured-flowers-2 {
-    width: 50%;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 120px 50px 50px 50px;
 }
 
 .featured-flowers-container .featured-flowers-3 {
-    width: 50%;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 70px 75px 0px 75px;
@@ -143,38 +150,48 @@ img{
     margin-bottom: 130px;
     background-color: rgba(229, 84, 115, 0.05);
 }
-.sale-container .sale-text{
+
+.sale-container .sale-text {
     text-align: center;
     padding-left: 50px;
 }
-.sale-container .sale-text h4{
+
+.sale-container .sale-text h4 {
     color: var(--color-1);
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
 }
-.sale-container .sale-text h4 #off{
+
+.sale-container .sale-text h4 #off {
     color: var(--color-3);
 }
-.sale-container .sale-text p{
+
+.sale-container .sale-text p {
     color: var(--color-2);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 30px;
 }
-.sale-container .sale-img{
+
+.sale-container .sale-img {
     margin: 100px;
 }
 
-.instagram-container{
+.instagram-container {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     gap: 10px 25px;
-    margin: 0px 240px 130px 240px;
+    margin: 0px 140px 130px 140px;
 }
 
-.subscribe-container{
+.instagram-container img {
+    width: 100%;
+    height: auto;
+}
+
+.subscribe-container {
     text-align: center;
     background-image: url("/Flower_Asset/Rectangle_9.png");
     background-repeat: no-repeat;
@@ -183,52 +200,61 @@ img{
     background-size: cover;
     /* background-size: cover; */
 }
-.subscribe-container .subscribe-text{
+
+.subscribe-container .subscribe-text {
     margin-bottom: 50px;
 }
-.subscribe-container .subscribe-text h4{
+
+.subscribe-container .subscribe-text h4 {
     color: var(--color-1);
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 15px;
 }
-.subscribe-container .subscribe-text p{
+
+.subscribe-container .subscribe-text p {
     color: var(--color-2);
     font-size: 18px;
     font-weight: 400;
 }
-.subscribe-container .subscribe-area input{
+
+.subscribe-container .subscribe-area input {
     border-radius: 8px;
     border: none;
     width: 700px;
     height: 64px;
     outline: none;
     margin-right: 16px;
-    
+
 }
-footer{
+
+footer {
     background-color: #111010;
     text-align: center;
     padding: 100px 0px;
 }
-footer .footer-title{
+
+footer .footer-title {
     color: white;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
 }
-footer .footer-title #flower{
+
+footer .footer-title #flower {
     color: var(--color-3);
 
 }
-footer .footer-desc{
+
+footer .footer-desc {
     color: rgba(255, 255, 255, 0.9);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 25px;
 }
-footer .copyright{
-    color:rgba(255, 255, 255, 0.4);
+
+footer .copyright {
+    color: rgba(255, 255, 255, 0.4);
     font-size: 16px;
     font-weight: 400;
 }
