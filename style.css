@@ -101,7 +101,6 @@
     display: flex;
     justify-content: center;
     gap:300px;
-    margin-bottom: 130px;
 }
 .ff-img-text-container #ff-img-text{
     color: var(--color-1);
@@ -109,4 +108,16 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 130px 240px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    gap:155px;
+    text-align: center;
+    color: var(--color-2);
 }
