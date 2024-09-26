@@ -175,6 +175,7 @@
     background-image: url("/Flower_Asset/Rectangle_9.png");
     background-repeat: no-repeat;
     padding: 100px;
+    margin-bottom: 130px;
     /* background-size: cover; */
 }
 .subscribe-container .subscribe-text{
@@ -199,4 +200,30 @@
     outline: none;
     margin-right: 16px;
     
+}
+footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 0px;
+}
+footer .footer-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+footer .footer-title #flower{
+    color: var(--color-3);
+
+}
+footer .footer-desc{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+footer .copyright{
+    color:rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
 }
